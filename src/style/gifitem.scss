@@ -1,0 +1,20 @@
+.gif__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+    width: 300px;
+    min-height: 300px;
+    transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s, margin cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s, box-shadow cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s;
+    background: linear-gradient(to top, #cfecff2b, #ffffff00);
+    border: rgba(0, 145, 255, 0.061) 1px solid;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), inset 0 2px 5px rgba(0, 145, 255, 0.061);
+
+    &:hover {
+        transform: scale(1.1);
+        margin: 0px 15px;
+    }
+}

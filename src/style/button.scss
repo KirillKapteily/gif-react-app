@@ -1,0 +1,16 @@
+.load-more{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+
+  transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s, margin cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s, box-shadow cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s;
+    background: linear-gradient(to top, #cfecff2b, #ffffff00);
+    border: rgba(0, 145, 255, 0.061) 1px solid;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), inset 0 2px 5px rgba(0, 145, 255, 0.061);
+
+    &:hover {
+        transform: scale(1.1);
+
+    }
+}
